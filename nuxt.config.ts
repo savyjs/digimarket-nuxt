@@ -2,7 +2,7 @@
 import {defineNuxtConfig} from "nuxt/config";
 import * as process from "process";
 
-const modulePath = process?.env?.MODULE_PATH ?? 'nuxt-digimarket-kit';
+const modulePath = process?.env?.MODULE_PATH ?? 'digimarket-nuxt-module';
 
 const Provinces = [
     {

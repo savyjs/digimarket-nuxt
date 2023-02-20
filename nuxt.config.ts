@@ -1,8 +1,8 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 import {defineNuxtConfig} from "nuxt/config";
 import * as process from "process";
-import _ from 'lodash';
-const modulePath = _.get(process,'env.MODULE_PATH','nuxt-digimarket-kit') // '../../src/module.ts' MODULE_PATH=../../src/module.ts;MODULE_DEV=digimarket_dev;NODE_ENV=development
+
+const modulePath = process?.env?.MODULE_PATH ?? 'nuxt-digimarket-kit';
 
 const Provinces = [
     {

@@ -21,3 +21,6 @@ src/nuxt3/
 
 modules/
 /pnpm-lock.yaml
+
+# Local Netlify folder
+.netlify

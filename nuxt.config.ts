@@ -54,7 +54,7 @@ export default defineNuxtConfig({
         // '@nuxt/content',
         // Relative to your project srcDir
         // '@nuxtjs/tailwindcss',
-        modulePath,
+        modulePath
         // Providing options
     ],
     ntm: {

@@ -1,5 +1,9 @@
 # Nuxt 3 Minimal Starter
 
+Demo: [diginuxt.savyjs.com](https://diginuxt.savyjs.com)
+
+Document: [digimarket.savyjs.com](https://digimarket.savyjs.com)
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup

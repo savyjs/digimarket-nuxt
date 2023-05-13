@@ -20,3 +20,4 @@ modules/vsp/
 src/nuxt3/
 
 modules/
+/pnpm-lock.yaml

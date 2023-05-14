@@ -4,7 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview  --port 3410"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
     "postcss-partial-import": "^4.1.0",

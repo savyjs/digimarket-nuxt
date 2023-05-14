@@ -6,6 +6,8 @@ node_modules
 .output
 .env
 ./modules
+./nuxt-module/
+./digimarket-nuxt-module/
 ./modules/*
 ./yarn.lock
 .idea/

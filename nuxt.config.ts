@@ -2,7 +2,7 @@
 import {defineNuxtConfig} from "nuxt/config";
 import * as process from "process";
 
-const modulePath = 'digimarket-nuxt-module';
+const modulePath = '../digimarket-nuxt-module';
 
 const Provinces = [
     {
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
         modulePath
         // Providing options
     ],
-    ntm: {
+    digimarket: {
         logo: '/assets/dkala/logo.svg',
         title: 'NTM',
         profileMenuItems: [

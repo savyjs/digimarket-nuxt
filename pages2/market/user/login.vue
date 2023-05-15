@@ -29,7 +29,6 @@
                     <button type="submit" class="btn-primary w-full mt-5 py-3.5">
                         ورود
                     </button>
-
                     <p class="font-weight-light mt-5 w-full text-right text-[10px]">
                         با ورود به دیجی‌کالا،
                         <nuxt-link to="rules" class="text-link px-0.5"> شرایط دیجی‌کالا

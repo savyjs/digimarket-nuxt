@@ -44,5 +44,7 @@
     </div>
 </template>
 <script setup>
+    import {useNtm} from "digimarket-nuxt-module/src/composables/ntm";
+
     const {logo, title} = useNtm().options();
 </script>

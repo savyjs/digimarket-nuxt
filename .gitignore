@@ -7,7 +7,9 @@ node_modules
 .env
 ./modules
 ./nuxt-module/
-./digimarket-nuxt-module/
+/tailwind/
+/document/
+/digimarket-nuxt-module/
 ./modules/*
 ./yarn.lock
 .idea/

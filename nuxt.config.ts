@@ -1,8 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 import {defineNuxtConfig} from "nuxt/config";
-import * as process from "process";
 
-const modulePath = '../digimarket-nuxt-module';
 
 const Provinces = [
     {
@@ -47,15 +45,6 @@ export default defineNuxtConfig({
     css: [
         'assets/font-css/fontiran.css',
         'assets/font-css/style.css'
-    ],
-    modules: [
-        // 'vite-plugin-vue-type-imports/nuxt',
-        // Using package name
-        // '@nuxt/content',
-        // Relative to your project srcDir
-        // '@nuxtjs/tailwindcss',
-        modulePath
-        // Providing options
     ],
     digimarket: {
         logo: '/assets/dkala/logo.svg',

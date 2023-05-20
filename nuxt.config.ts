@@ -46,6 +46,9 @@ export default defineNuxtConfig({
         'assets/font-css/fontiran.css',
         'assets/font-css/style.css'
     ],
+    modules: [
+        'digimarket-nuxt-module'
+    ],
     digimarket: {
         logo: '/assets/dkala/logo.svg',
         title: 'NTM',

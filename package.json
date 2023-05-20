@@ -9,14 +9,16 @@
   "devDependencies": {
     "sass": "^1.52.3",
     "sass-loader": "latest",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "@nuxtjs/tailwindcss": "^6.6.8",
+    "@nuxtjs/i18n": "^7.3.1"
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@nuxt/content": "^2.4.3",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "digimarket-kit": "file:../tailwind",
     "digimarket-nuxt-module": "file:../digimarket-nuxt-module",
+    "digimarket-kit": "file:../tailwind",
     "nuxt": "npm:nuxt3@latest"
   }
 }

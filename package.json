@@ -11,8 +11,6 @@
     "sass": "^1.52.3",
     "sass-loader": "latest",
     "typescript": "^4.9.5",
-    "@nuxtjs/tailwindcss": "^6.6.8",
-    "@nuxtjs/i18n": "^8.0.0-beta.12",
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
   },
   "dependencies": {

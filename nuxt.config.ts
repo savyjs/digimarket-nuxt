@@ -1,7 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 import {defineNuxtConfig} from "nuxt/config";
 
-
 const Provinces = [
     {
         key: '1',
@@ -42,12 +41,14 @@ const Provinces = [
 ];
 
 export default defineNuxtConfig({
+
     css: [
         'assets/font-css/fontiran.css',
         'assets/font-css/style.css'
     ],
     modules: [
-        'digimarket-nuxt-module'
+        "digimarket-nuxt-module",
+        "@nuxtjs/i18n"
     ],
     digimarket: {
         logo: '/assets/dkala/logo.svg',

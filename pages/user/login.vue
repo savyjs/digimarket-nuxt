@@ -4,6 +4,8 @@
 <script setup>
 
 async function login(data) {
-
+  definePageMeta({
+    name: "NtmLogin"
+  })
 }
 </script>

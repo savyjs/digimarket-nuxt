@@ -1,10 +1,9 @@
 <template>
   <nuxt-layout name="ntm-auth">
-    <ntm-login-box @action="login">
-      <ntm-get-mobile mobile="">
-      </ntm-get-mobile>
+    <user-ntm-login-box @action="login">
+      <user-ntm-get-mobile mobile="" />
       <user-ntm-get-password password=""/>
-    </ntm-login-box>
+    </user-ntm-login-box>
   </nuxt-layout>
 </template>
 <script setup>
@@ -17,6 +16,4 @@ async function login(credential) {
   })
 }
 
-import NtmGetMobile from "~/components/user/NtmGetMobile.vue";
-import NtmLoginBox from "~/components/user/NtmLoginBox.vue";
 </script>

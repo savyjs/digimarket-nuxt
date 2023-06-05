@@ -3,12 +3,12 @@
     <div class="m-5">
       <p class="">Nuxt pages:</p>
       <div class="gap-3 flex">
-        <nuxt-link class="btn-success" to="/market">Market Landing</nuxt-link>
-        <nuxt-link class="btn-success" to="/market/profile">Profile</nuxt-link>
-        <nuxt-link class="btn-success" to="/market/profile/orders">Orders</nuxt-link>
-        <nuxt-link class="btn-success" to="/market/profile/order-details/1">Order Details
+        <nuxt-link class="btn-success" :to="`${prefix}/market`">Market Landing</nuxt-link>
+        <nuxt-link class="btn-success" :to="`${prefix}/market/profile`">Profile</nuxt-link>
+        <nuxt-link class="btn-success" :to="`${prefix}/market/profile/orders`">Orders</nuxt-link>
+        <nuxt-link class="btn-success" :to="`${prefix}/market/profile/order-details/1`">Order Details
         </nuxt-link>
-        <nuxt-link class="btn-success-outlined" to="/market/products/8364953">Product page</nuxt-link>
+        <nuxt-link class="btn-success-outlined" :to="`${prefix}/market/products/8364953`">Product page</nuxt-link>
       </div>
     </div>
     <div class="m-5">
@@ -35,8 +35,11 @@
     <div class="m-5">
       <p class="">Pure HTML pages:</p>
       <div class="gap-3 flex">
-        <nuxt-link class="btn btn-gray-outlined text-ad" to="/market/products/8364953">landing 2</nuxt-link>
+        <nuxt-link class="btn btn-gray-outlined text-ad" :to="`${prefix}/market/products/8364953`">landing 2</nuxt-link>
       </div>
     </div>
   </div>
 </template>
+<script setup>
+const prefix = "/v1";
+</script>

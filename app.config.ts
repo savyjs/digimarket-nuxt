@@ -1,5 +1,3 @@
-import {defineAppConfig} from "nuxt/app";
-
 const Provinces = [
     {
         key: '1',
@@ -39,10 +37,23 @@ const Provinces = [
     },
 ];
 
+import fa from './lang/fa.json'
+import en from './lang/en.json'
+
+const messages = {fa, en}
+
 export default defineAppConfig({
+    fetchOptions: {
+        baseURL: 'https://storeino.devdot.ir/api',
+        headers: {
+            Accept: 'application/json',
+            'Cache-Control': 'no-cache'
+        }
+    },
     digimarket: {
-        logo: '/assets/dkala/logo.svg',
-        title: 'NTM',
+        lang: 'fa',
+        rtl: true,
+        title: 'shop_title',
         profileMenuItems: [
             {icon: 'fa fa-plus', text: 'پلاس اکانت', svg: 'plus', link: '/profile/plus'},
             {icon: 'fa fa-list', text: 'خلاصه فعالیت‌ها', svg: 'list', link: '/profile/activity'},
@@ -58,6 +69,7 @@ export default defineAppConfig({
                     items: Provinces
                 }]
             }
-        ]
+        ],
+        messages
     }
 })

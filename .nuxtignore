@@ -1,0 +1,3 @@
+pages/v1/*.vue
+pages/v1/**/*.vue
+pages/blog/*.vue

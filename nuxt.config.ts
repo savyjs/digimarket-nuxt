@@ -2,7 +2,7 @@ import {defineNuxtConfig} from "nuxt/config";
 
 export default defineNuxtConfig({
     extends: [
-        "digimarket-nuxt-module"
+        "digimarket-nuxt-layer"
     ],
     css: [
         'assets/font-css/fontiran.css',

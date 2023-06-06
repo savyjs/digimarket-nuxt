@@ -1,3 +1,9 @@
-pages/v1/*.vue
-pages/v1/**/*.vue
-pages/blog/*.vue
+pages/v1
+pages/blog
+pages/market
+pages/profile
+layouts/NtmPanel.vue
+layouts/NtmMarketShipping.vue
+layouts/NtmMarketShipping.vue
+layouts/NtmMarketPayment.vue
+layouts/NtmMarket.vue
